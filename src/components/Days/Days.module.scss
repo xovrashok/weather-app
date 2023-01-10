@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.leftWrapper {
+  display: flex;
+}
+
+.wrapper {
+  padding: 7px 20px 9px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.active{
+  padding: 7px 20px 9px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 15px;
+  background-color: #4793ff;
+  color: white;
+  cursor: pointer;
+}
+
+.wrapperCancel {
+  padding: 7px 20px 6px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+  font-size: 20px;
+  font-weight: 400;
+}
