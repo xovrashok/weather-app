@@ -11,7 +11,9 @@ export const Home = () => {
   return (
     <div>
       <div className={s.home}>
-          <div>test</div>
+
+          <div>test1</div>
+          <div>test2</div>
         <ThisDay />
         <ThisDayInfo />
       </div>
