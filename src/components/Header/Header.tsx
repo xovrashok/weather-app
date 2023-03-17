@@ -3,9 +3,7 @@ import Select from "react-select";
 import s from "./Header.module.scss";
 import { GlobalSvgSelector } from "../../assets/icons/global/GlobalSvgSelector";
 
-interface Props {}
-
-export const Header = (props: Props) => {
+export const Header = () => {
   const options = [
     { value: "city-1", label: "Киев" },
     { value: "city-2", label: "Харьков" },
@@ -30,6 +28,7 @@ export const Header = (props: Props) => {
           <GlobalSvgSelector id="headerLogo" />
         </div>
         <div className={s.title}>React Weather</div>
+        <div>test</div>
       </div>
       <div className={s.wrapper}>
         <div className={s.changeTheme}>
